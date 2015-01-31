@@ -138,8 +138,8 @@ section {
 }
 .menu select {
     display: none;
-}       
-        
+}
+
 /* #Message
 ================================================== */
 .message-container {
@@ -185,7 +185,6 @@ section {
     font-size: 40px;
     margin: auto;
     padding: 0;
-    width: 45px;
     height: 45px;
     margin-bottom: 15px;
 }
@@ -312,8 +311,8 @@ section {
 }
 .lightbox-link:hover {
     opacity: .6;
-}       
-   
+}
+
 /* #About Us
 ================================================== */
 .about-intro {
@@ -398,8 +397,8 @@ section {
 }
 #our-partner .view-first img:hover {
     opacity: 1;
-}       
- 
+}
+
 /* #Social Links
 ================================================== */
 .social-links {
@@ -425,7 +424,7 @@ section {
 .social-links li:hover a {
     color: #d73300;
     text-decoration: none;
-} 
+}
 
 /*  #Latest Posts
 ================================================== */
@@ -463,7 +462,7 @@ section {
 .latest-posts .entry .date {
     color: #959595;
     display: block;
-} 
+}
 
 /* #Flickr Photo
 ================================================== */
@@ -608,7 +607,7 @@ section {
 }
 .pagenav li.prev a {
     padding-left: 0;
-} 
+}
 
 #page-title h1 {
     font-weight: 200;
@@ -663,11 +662,11 @@ section {
 .article-title {
     clear: both;
     overflow: hidden;
-} 
+}
 .article-title a:hover {
     color: #e3714d;
     text-decoration: none;
-}  
+}
 
 /* #Comment
 ================================================== */
@@ -754,7 +753,7 @@ section {
     text-transform: uppercase;
     line-height: 0;
     margin-bottom: 25px;
-}  
+}
 
 
 /* #Sidebar
