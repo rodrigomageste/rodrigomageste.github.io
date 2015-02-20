@@ -1209,3 +1209,12 @@ iframe {
         width: 266px;
     }
 }
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:1166px;
+   height:450px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-453px;  /* your iframe height */
+}
