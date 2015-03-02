@@ -35,10 +35,9 @@ Version: 1.0.0
 /* #Basics
 ================================================== */
 body {
-    padding-top: 130px;
-    color: #636363;
+    padding-top: 70px;
+    color: #999999;
     font: 11px/1.7 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-    background: url(../images/bg.png) repeat;
 }
 section {
     margin-bottom: 30px;
@@ -49,40 +48,40 @@ section {
 ================================================== */
 #header {
     background-color: #fff;
-    border-top: 3px solid #e3714d;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2);
+    border-top: 3px solid #FFB326;
+    
 }
 .logo {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .logo h3 {
     font-family: oswald;
 }
 .logo a {
-    color: #e3714d;
+    color: #FFB326;
 }
 .logo a:hover {
-    color: #333;
+    color: #999;
     text-decoration: none;
 }
 .menu ul {
     list-style: none;
-    float: right;
+    float: center;
     margin-bottom: 0;
 }
 .menu ul a {
-    color: #333;
+    color: #999;
     display: block;
     font-family: oswald;
     font-size: 12px;
     position: relative;
     margin-left: 25px;
-    padding: 40px 0 40px;
+    padding: 25px 0 25px;
     text-transform: uppercase;
     text-decoration: none;
 }
 .menu ul a:hover, .menu ul a.current {
-    color: #d73300;
+    color: #FFB326;
 }
 .menu ul a.current2 {
     color: #fff;
@@ -140,6 +139,12 @@ section {
     display: none;
 }
 
+/* #Message2
+================================================== */
+.message2-container {
+    text-align: center;
+}
+
 /* #Message
 ================================================== */
 .message-container {
@@ -149,8 +154,7 @@ section {
 /* #Slideshow
 ================================================== */
 .carousel-wrapper {
-    border: 3px solid #fff;
-    box-shadow: 1px 0px 0px 0px rgb(204, 204, 204);
+    border: 0px solid #fff;
 }
 .carousel-control {
     top: 50%;
@@ -229,7 +233,6 @@ section {
     padding: 0 7px 5px 0;
     line-height: 1em;
     float: left;
-    text-shadow: 1px 1px 0 #fafafa, 2px 2px 0 rgba(95, 149, 176, 0.5), 0 0 1px #fafafa;
 }
 .view {
     overflow: hidden;
@@ -261,15 +264,15 @@ section {
     color: #f0bfb8;
 }
 .mask p a:hover, .mask h4 a:hover {
-    color: #b6ff00;
+    color: #999;
     text-decoration: none;
 }
 .view-first .mask {
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
-    background: #d73300;
-    background: rgba(215, 51, 0, .75);
+    background: #FF9B05;
+    background: rgba(255, 155, 5, .75);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -294,8 +297,7 @@ section {
     -moz-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: 1px 0px 0px rgb(204, 204, 204);
+    border: 0px solid rgb(255, 255, 255);
     height: 214px;
     overflow: hidden;
 }
@@ -307,13 +309,12 @@ section {
     -ms-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 1px 0px 0px rgb(204, 204, 204);
     height: auto;
     overflow: hidden;
 }
 
 .lightbox-link {
-    background: #000 url(../images/plus.png) no-repeat 50% 50%;
+    background: #fff url(../images/plus.png) no-repeat 50% 50%;
     bottom: 20px;
     height: 30px;
     opacity: .4;
@@ -329,7 +330,7 @@ section {
 /* #About Us
 ================================================== */
 .about-intro {
-    color: #333;
+    color: #999;
     font-size: 14px;
     margin: 0 0 80px;
 }
@@ -446,7 +447,7 @@ section {
     list-style: none;
 }
 .widget .latest-posts a {
-    color: #333;
+    color: #999;
 }
 .latest-posts li {
     margin-bottom: 10px;
@@ -465,7 +466,6 @@ section {
     height: 50px;
     margin-top: 5px;
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 1px 0px 0px 0px rgb(204, 204, 204);
 }
 .latest-posts .entry {
     display: block;
@@ -495,7 +495,6 @@ section {
 .photo-stream img {
     display: block;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px rgb(204, 204, 204);
 }
 .photo-stream img:hover {
     opacity: 0.5;
@@ -513,7 +512,7 @@ section {
     margin-right: 10px;
     margin-top: 4px;
     background: #fff;
-    color: #636363;
+    color: #999999;
     margin-bottom: 10px;
 }
 #blog-single {
@@ -719,7 +718,6 @@ section {
     float: left;
     margin-top: 5px;
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 1px 0px 0px 0px rgb(204, 204, 204);
 }
 #comments ul li .details {
     padding-left: 20px;
@@ -734,14 +732,14 @@ section {
 #comments ul li .details span.author {
     font-size: 12px;
     font-weight: 700;
-    color: #333;
+    color: #999;
 }
 #comments ul li .details span.reply a, #comments ul li .details span.reply a:visited {
     font-size: 11px;
     color: #999;
 }
 #comments ul li .details span.reply a:hover {
-    color: #333;
+    color: #999;
 }
 #comments ul li .details span.date {
     font-size: 11px;
@@ -761,7 +759,7 @@ section {
     margin-bottom: 20px;
 }
 .comment-title {
-    color: #333;
+    color: #999;
     font-size: 14px;
     text-transform: uppercase;
     line-height: 0;
@@ -839,7 +837,7 @@ section {
 .tabber .nav-tabs li.active a {
     border-top: 1px solid #d73300;
     border-bottom: 1px solid #fff;
-    color: #333;
+    color: #999;
     background-color: #fff;
 }
 
@@ -1054,13 +1052,13 @@ section {
 ================================================== */
 .blog-title {
     font-weight: 800;
-    color: #000;
+    color: #999999;
 }
 .blog-title a {
-    color: #333;
+    color: #999;
 }
 .section-title {
-    color: #000;
+    color: #999;
 }
 #our-experience .section-title {
     margin-bottom: 20px;
@@ -1070,8 +1068,8 @@ section {
 /* #Footer
 ================================================== */
 #footer {
-    background-color: #333;
-    padding: 50px 0 30px 0;
+    background-color: #F7F7F7;
+    padding: 20px 0 0px 0;
 }
 #copyrights a:hover {
     color: #e3714d;
