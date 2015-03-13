@@ -49,7 +49,7 @@ section {
 #header {
     background-color: #fff;
     border-top: 3px solid #FFB326;
-    
+
 }
 .logo {
     padding-top: 0px;
@@ -1228,4 +1228,12 @@ iframe {
    height:450px; /* your iframe height */
    top:453px;  /* your iframe height */
    margin-top:-453px;  /* your iframe height */
+}
+
+form input {
+    width: 400px;
+}
+
+form textarea {
+    width: 600px;
 }
