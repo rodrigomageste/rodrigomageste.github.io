@@ -12,7 +12,6 @@
     <link href="css/theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/magnific-popup.css" rel="stylesheet">
 
     <!-- FONT AWESOME -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -34,8 +33,6 @@
 
     <!-- FABICON -->
     <link rel="shortcut icon" href="ico/favicon.png">
-
-    <script src="js/modernizr.custom.js"></script>
   </head>
 
   <body>
@@ -67,24 +64,33 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Tem uma grande ideia? <span class="highlight">Deixe-nos ajudar!</span></h2>
-            <h3>Preencha esse formulário</h3>
+            <h3>Dados pessoais</h3>
 
             <div class='contact-form'>
               <form name="sentMessage" id="contactForm" novalidate>
                 <div class='name'>
-                  <input class='form-control first' placeholder='Digite seu nome' type='text' id="first_name" required data-validation-required-message="Please enter your first name">
-                  <input class='last' placeholder='Digite seu telefone com o DDD' type='text' id="last_name" required data-validation-required-message="Please enter your last name">
+                  <input class='form-control first' placeholder='Digite seu nome' type='text' required>
+                  <input class='last' placeholder='Digite seu telefone com o DDD' type='text' >
                 </div>
 
                 <div class='contact'>
-                  <input class='form-control email' placeholder='Digite seu e-mail' type='text' id="email" required data-validation-required-message="Please enter your email">
+                  <input class='form-control email' placeholder='Digite seu e-mail' type='text' required>
+                </div>
+
+                <br>
+                <h3>Ideia</h3>
+
+                <div class='nameIdea'>
+                  <input class='form-control email' placeholder='Sua idea já tem nome? Qual é?' type='text' required>
                 </div>
 
                 <div class='message'>
-                  <textarea class="form-control" placeholder='Descreva sua ideia' id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                  <textarea class="form-control" placeholder='Descreva um pouco sobre a ideia' maxlength="999" style="resize:none"></textarea>
                 </div>
 
-                <div id="success"> </div>
+                <div class='businessModel'>
+                  <textarea class="form-control" placeholder='Qual o plano de negócio? (Como você pretende ganhar dinheiro)' maxlength="999" style="resize:none"></textarea>
+                </div>
 
                 <footer class="submit-button">
                   <button type="submit">Enviar mensagem</button>
@@ -139,23 +145,6 @@
     </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jqueryOriginal.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-		<script src="js/cbpAnimatedHeader.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scrollReveal.js"></script>
-    <script src="js/jquery.scrollTo.js" defer="defer"></script>
-    <script src="js/jquery.nav.js" defer="defer"></script>
-    <script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
-    <script src="js/isotope.min.js" defer="defer"></script>
-    <script src="js/jquery.magnific-popup.min.js" defer="defer"></script>
-    <script src="js/jqBootstrapValidation.js" defer="defer"></script>
-    <script src="js/custom.js"></script>
-
-    <script src="js/less-1.6.1.min.js"></script>
   </body>
 </html>

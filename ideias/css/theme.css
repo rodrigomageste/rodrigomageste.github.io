@@ -1978,6 +1978,17 @@ section .overlay-text {
   border-top: 0;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #FFB326;
+}
+.contact-form .nameIdea input {
+  border-radius: 4px 4px 0 0;
+  height: 50px;
+  width: 100%;
+  line-height: 25px;
+  padding: 0 0 0 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .contact-form textarea {
@@ -1990,6 +2001,30 @@ section .overlay-text {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0 0 4px 4px;
+  height: 170px;
+}
+.contact-form .businessModel textarea {
+  height: 50px;
+  width: 100%;
+  line-height: 25px;
+  padding: 15px 20px 15px 20px;
+  border-top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #FFB326;
+  border-radius: 0;
+  height: 100px;
+}
+.contact-form .team textarea {
+  height: 50px;
+  width: 100%;
+  line-height: 25px;
+  padding: 15px 20px 15px 20px;
+  border-top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
   height: 200px;
 }
 .contact-form #success {

@@ -1,30 +1,3 @@
-/* -- Full Screen Viewport Container
-   ---------------------------- */
-
-$(window).load(function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets
-    init();
-});
-
-$(document).ready(function() {
-  fullScreenContainer();
-  owlCarousel();
-  magnificPopup();
-});
-
-
-
-/* --- initialize functions on window load here -------------- */
-
-function init() {
-  tooltips();
-  onePageScroll();
-  scrollAnchor();
-  toggleContactForm();
-}
-
-
-
 /* --- Full Screen Container ------------- */
 
 function fullScreenContainer() {
@@ -58,43 +31,6 @@ function fullScreenContainer() {
   });
 
 }
-
-
-
-/* --- owlCarousel ------------- */
-
-function owlCarousel() {
-    $("#owl-example").owlCarousel({
-      lazyLoad : true,
-      items: 3,
-      theme: "owl-theme-main"
-    });
-
-    $("#intro").owlCarousel({
-      lazyLoad: true,
-      lazyEffect: "fade",
-      singleItem: true,
-      navigation: true,
-      navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-      slideSpeed : 450,
-      pagination: false,
-      transitionStyle: "fade",
-      theme: "owl-theme-featured"
-
-    });
-}
-
-
-
-/* --- Tooltips ------------------- */
-
-function tooltips() {
-  $('.tooltips').tooltip();
-}
-
-/* --- scrollReveal ------------------- */
-
-window.scrollReveal = new scrollReveal();
 
 
 /* --- magnific popup ------------------- */
@@ -322,31 +258,6 @@ function loginOverlay() {
 }
 
 
-
-/* --- One Page Scroll ------------------- */
-
-function onePageScroll() {
-  $('.nav').onePageNav({
-      currentClass: 'current',
-      changeHash: false,
-      scrollSpeed: 650,
-      scrollOffset: 30,
-      scrollThreshold: 0.5,
-      filter: ':not(.login, .signup)',
-      easing: 'swing',
-      begin: function() {
-          //I get fired when the animation is starting
-      },
-      end: function() {
-          //I get fired when the animation is ending
-      },
-      scrollChange: function($currentListItem) {
-          //I get fired when you enter a section and I pass the list item of the section
-      }
-  });
-}
-
-
 $(window).scroll(function() {
   var windowpos = $(window).scrollTop() ;
 
@@ -418,7 +329,7 @@ $(function() {
 	   // firstName = name.split(' ').slice(0, -1).join(' ');
     //      }
 	 $.ajax({
-                url: "contact_me.php",
+              url: "contact_me.php",
             	type: "POST",
             	data: {first_name: first_name, last_name: last_name, email: email, message: message},
             	cache: false,
