@@ -2715,3 +2715,19 @@ footer.footer .icon {
 #contactForm .message textarea {
   border-radius: 0;
 }
+
+section.cta h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0.5em 0;
+  line-height: 1.3;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.text-center {
+  padding: 0;
+}
