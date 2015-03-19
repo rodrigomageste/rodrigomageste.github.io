@@ -1239,7 +1239,7 @@ form textarea {
 }
 
 #page-title h1 {
-  font-weight: 100;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0.5em 0;
@@ -1247,5 +1247,13 @@ form textarea {
   color: black;
   text-align: center;
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.quem-somos-description {
+  /*font-weight: bold;*/
+}
+
+#our-experience p {
+  /*font-weight: bold;*/
 }

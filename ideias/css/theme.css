@@ -2717,7 +2717,7 @@ footer.footer .icon {
 }
 
 section.cta h1 {
-  font-weight: 100;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0.5em 0;
@@ -2725,7 +2725,7 @@ section.cta h1 {
   color: black;
   text-align: center;
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 section.text-center {
