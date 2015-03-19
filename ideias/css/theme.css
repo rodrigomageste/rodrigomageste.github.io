@@ -2711,3 +2711,7 @@ footer.footer .icon {
   color: #999999;
   font-size: 11px;
 }
+
+#contactForm .message textarea {
+  border-radius: 0;
+}
