@@ -1249,3 +1249,7 @@ form textarea {
   margin-left: -5px;
   margin-top: 1px;
 }
+
+.navbar-fixed-top .row {
+    margin-left: -15px;
+}
