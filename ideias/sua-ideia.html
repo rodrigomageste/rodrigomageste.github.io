@@ -67,33 +67,39 @@
             <h3>Dados pessoais</h3>
 
             <div class='contact-form'>
-              <form name="sentMessage" id="contactForm" novalidate>
+              <form name="sentMessage" action="https://powellsoftwares.wufoo.com/forms/m1973mon1sspcsi/" id="contactForm" novalidate method="POST">
                 <div class='name'>
-                  <input class='form-control first' placeholder='Digite seu nome' type='text' required>
-                  <input class='last' placeholder='Digite seu telefone com o DDD' type='text' >
+                  <input name="Field3" class='form-control first' placeholder='Digite seu nome' type='text' required>
+                  <input name="Field5" class='last' placeholder='Digite seu telefone com o DDD' type='text' >
                 </div>
 
                 <div class='contact'>
-                  <input class='form-control email' placeholder='Digite seu e-mail' type='text' required>
+                  <input name="Field6" class='form-control email' placeholder='Digite seu e-mail' type='text' required>
                 </div>
 
                 <br>
                 <h3>Ideia</h3>
 
                 <div class='nameIdea'>
-                  <input class='form-control email' placeholder='Sua idea já tem nome? Qual é?' type='text' required>
+                  <input name="Field7" class='form-control email' placeholder='Sua idea já tem nome? Qual é?' type='text' required>
                 </div>
 
                 <div class='message'>
-                  <textarea class="form-control" placeholder='Descreva um pouco sobre a ideia' maxlength="999" style="resize:none"></textarea>
+                  <textarea name="Field8" class="form-control" placeholder='Descreva um pouco sobre a ideia' maxlength="999" style="resize:none"></textarea>
                 </div>
 
                 <div class='businessModel'>
-                  <textarea class="form-control" placeholder='Qual o plano de negócio? (Como você pretende ganhar dinheiro)' maxlength="999" style="resize:none"></textarea>
+                  <textarea name="Field9" class="form-control" placeholder='Qual o plano de negócio? (Como você pretende ganhar dinheiro)' maxlength="999" style="resize:none"></textarea>
+                </div>
+
+                <div style="display: none">
+                  <label for="comment">Não preencha esse campo</label>
+                  <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                  <input type="hidden" id="idstamp" name="idstamp" value="Nc23nQ5baCIPfSfnGGFOMM46IK+v+oXEbg852EF8GoQ=" />
                 </div>
 
                 <footer class="submit-button">
-                  <button type="submit">Enviar mensagem</button>
+                  <button name="saveForm" type="submit">Enviar mensagem</button>
                 </footer>
               </form>
             </div>
