@@ -1257,3 +1257,9 @@ form textarea {
 #our-experience p {
   /*font-weight: bold;*/
 }
+
+#caricatura_equipe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
