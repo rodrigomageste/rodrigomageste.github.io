@@ -1253,3 +1253,8 @@ form textarea {
 .navbar-fixed-top .row {
     margin-left: -15px;
 }
+
+.widget-title {
+    font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-weight: bold;
+}
