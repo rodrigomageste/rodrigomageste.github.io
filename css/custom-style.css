@@ -1257,3 +1257,9 @@ form textarea {
 #our-experience p {
   /*font-weight: bold;*/
 }
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    width: 7%;
+}
